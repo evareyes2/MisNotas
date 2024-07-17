@@ -10,10 +10,9 @@ body {
     line-height: 1.5;
     color:#C0A85A;
     background-color:#F5F5DC;
-    max-width: 900px;
+    max-width: 1000px;
     display: flex;
     flex-direction: column;
-    min-width: 80rem ;
     margin: 40px auto;
     padding: 20px;
     border: 2px solid #FFC080;
@@ -37,6 +36,7 @@ main {
 .nota-nueva form {
     display: flex;
     flex-direction: column;
+    width: 20rem;
 }
 
 .nota-nueva textarea {
@@ -46,7 +46,7 @@ main {
 }
 
 .nota-nueva button {
-    margin: 10px;
+    margin-top: 10px;
     background-color: rgb(83, 82, 83);
     color: aliceblue;
     padding: 10px 20px;
@@ -61,6 +61,7 @@ main {
 
 .lista-notas {
     margin-bottom: 10px;
+    width: 330px;
 }
 
 .lista-notas ul {
@@ -69,6 +70,12 @@ main {
 
 .lista-notas li {
     padding: 5px;
+    margin: 10px;
+    border: 2px firebrick solid;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: safe;
 }
 
 .lista-notas li:last-child {
